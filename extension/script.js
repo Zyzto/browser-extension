@@ -245,7 +245,7 @@ function buildVideoButton(thumbContainer) {
     display: 'flex',
     position: 'absolute',
     top: '5px',
-    left: '5px',
+    if (!result.reverseUi || result.reverseUi.checked === false){left: '5px'};else{right: '5px'},
     alignItems: 'center',
     backgroundColor: '#00202f',
     color: '#fff',
